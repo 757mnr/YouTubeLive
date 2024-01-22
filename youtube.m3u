@@ -1,1 +1,27 @@
+#EXTM3U x-tvg-url="https://github.com/botallen/epg/releases/download/latest/epg.xml"
 
+#########################################################################
+#      ____            _           _   __  __                           #
+#     |  _ \ _ __ ___ (_) ___  ___| |_|  \/  | ___   ___  ___  ___      #
+#     | |_) | '__/ _ \| |/ _ \/ __| __| |\/| |/ _ \ / _ \/ __|/ _ \     #
+#     |  __/| | | (_) | |  __/ (__| |_| |  | | (_) | (_) \__ \  __/     #
+#     |_|   |_|  \___// |\___|\___|\__|_|  |_|\___/ \___/|___/\___|     #
+#                   |__/                                                #
+#                                  >> https://github.com/benmoose39     #
+#########################################################################
+
+
+#EXTINF:-1 group-title="Exclusive" tvg-logo="https://wsrv.nl/?key&w=400&h=400&url=https://png.pngtree.com/png-clipart/20230414/original/pngtree-shri-ram-navami-with-lord-bow-arrow-png-image_9053288.png" tvg-id="757", Ram Mandir Ayodhya
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1705925904/ei/sAiuZYOBLufdsfIPscC4wA4/ip/52.238.29.181/id/EU4fJn0YdXw.1/source/yt_live_broadcast/requiressl/yes/xpc/EgVo2aDSNQ%3D%3D/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/spc/UWF9fzXqDryJlrrOasNmvpVNUpPX4bpzp7eJ_qcNgC6H7qs/vprv/1/go/1/pacing/0/nvgoi/1/keepalive/yes/fexp/24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cspc%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AJfQdSswRQIhALNFcBSEzSGh2eQJc3mqZccdmTwu3EOrtmY10z5RU8j7AiBHO-0ldmRhTmVW1__u6oioNVAnEGEHAZVB2k8d7crUzg%3D%3D/file/index.m3u8
+
+#EXTINF:-1 group-title="Exclusive" tvg-logo="https://wsrv.nl/?key&w=400&h=400&url=https://png.pngtree.com/png-clipart/20230414/original/pngtree-shri-ram-navami-with-lord-bow-arrow-png-image_9053288.png" tvg-id="757", Ram Mandir Ayodhya
+https://raw.githubusercontent.com/benmoose39/YouTube_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Exclusive" tvg-logo="https://wsrv.nl/?key&w=400&h=400&url=https://png.pngtree.com/png-clipart/20230414/original/pngtree-shri-ram-navami-with-lord-bow-arrow-png-image_9053288.png" tvg-id="757", Ram Mandir Ayodhya
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1705925906/ei/sgiuZZHsE4bBsfIPteuY0Ag/ip/52.238.29.181/id/zzxD9r-sdmU.2/source/yt_live_broadcast/requiressl/yes/xpc/EgVo2aDSNQ%3D%3D/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/spc/UWF9f9ygeAQxu0HSlzz6x3PmLTOIjHQ6kr8j0yjd80Bwd58/vprv/1/go/1/pacing/0/nvgoi/1/keepalive/yes/fexp/24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cspc%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AJfQdSswRAIgAbPi0b6fkW2dGPEiy-_F_1eJppngE9h36kHWRDpl3c8CIDJ3VHmk3JNw5h1GbgfqBcE9d2WTazklZcpszbGGhtQ2/file/index.m3u8
+
+#EXTINF:-1 group-title="Exclusive" tvg-logo="https://wsrv.nl/?key&w=400&h=400&url=https://png.pngtree.com/png-clipart/20230414/original/pngtree-shri-ram-navami-with-lord-bow-arrow-png-image_9053288.png" tvg-id="757", Ram Mandir Ayodhya
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1705925906/ei/sgiuZdK1NfTcsfIPy8inwAI/ip/52.238.29.181/id/eiUPVLADNVw.1/source/yt_live_broadcast/requiressl/yes/xpc/EgVo2aDSNQ%3D%3D/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/spc/UWF9f7_TAU9zDUuFVk9tRhfu9YnhKGEpumJ-MeLb4toNSZE/vprv/1/go/1/pacing/0/nvgoi/1/keepalive/yes/fexp/24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cspc%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AJfQdSswRgIhAIlzE8g4wN3atnLMe-t3MqpMR2zRgnTCV5T8v1efOxUOAiEAh171VA-lGcD9-Oc52cwRkbAjjpqyHMf-SouTMEviz4c%3D/file/index.m3u8
+
+#EXTINF:-1 group-title="Exclusive" tvg-logo="https://wsrv.nl/?key&w=400&h=400&url=https://png.pngtree.com/png-clipart/20230414/original/pngtree-shri-ram-navami-with-lord-bow-arrow-png-image_9053288.png" tvg-id="757", Ram Mandir Ayodhya
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1705925907/ei/swiuZY-sGMjhsfIPnrGXkAg/ip/52.238.29.181/id/EU4fJn0YdXw.1/source/yt_live_broadcast/requiressl/yes/xpc/EgVo2aDSNQ%3D%3D/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/spc/UWF9fyhuHZS7HUNuf6yZg6UoWTYXkJ6DghZwM6k2w5g1_A0/vprv/1/go/1/pacing/0/nvgoi/1/keepalive/yes/fexp/24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cspc%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AJfQdSswRQIhAOn8IaXeTRwQRE_YzLQ_FqFmsC8Jkvx3fGaJ1nZGp0FkAiBYYqjo0D8obsuy5dT3Y0SZn1tCppKd-LK_ZVWQGtbEOQ%3D%3D/file/index.m3u8
