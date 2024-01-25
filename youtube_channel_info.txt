@@ -2,5 +2,8 @@
 ~~ FORMAT: <channel name> | <group name> | <logo> | <tvg-id>
 
 
-Ram Mandir Ayodhya | Bangla | https://wsrv.nl/?key&w=400&h=400&url=https://png.pngtree.com/png-clipart/20230414/original/pngtree-shri-ram-navami-with-lord-bow-arrow-png-image_9053288.png |
-https://www.youtube.com/watch?v=eiUPVLADNVw
+Live Stream | Bangla | https://wsrv.nl/?key&w=400&h=400&url=https://media.bazaarvoice.com/Shutterstock_1678910089.png |
+https://www.youtube.com/@NarendraModi/Live
+
+Live Stream | Bangla | https://wsrv.nl/?key&w=400&h=400&url=https://media.bazaarvoice.com/Shutterstock_1678910089.png |
+https://m.youtube.com/@ANINewsIndia/live
