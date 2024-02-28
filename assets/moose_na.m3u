@@ -1,14 +1,8 @@
 #EXTM3U
-#EXT-X-VERSION:3
-#EXT-X-TARGETDURATION:14
-#EXT-X-MEDIA-SEQUENCE:0
-#EXTINF:13.533333,
+
+#EXTINF:111, Sample artist name - Sample track title
 https://live-par-2-abr.livepush.io/vod/bigbuckbunnyclip.mp4
-moose_na0.ts
-#EXTINF:6.766667,
+
+#EXTINF:222,Example Artist name - Example track title
 https://live-par-2-abr.livepush.io/vod/bigbuckbunnyclip.mp4
-moose_na1.ts
-#EXTINF:9.766667,
-https://live-par-2-abr.livepush.io/vod/bigbuckbunnyclip.mp4
-moose_na2.ts
-#EXT-X-ENDLIST
+
