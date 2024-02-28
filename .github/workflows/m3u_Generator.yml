@@ -22,3 +22,21 @@ jobs:
         run: |
           chmod +x convert_mp4_to_hls.sh
           ./convert_mp4_to_hls.sh input.mp4
+
+      - name: Set up Git
+        run: |
+          git config --global user.email "action@github.com"
+          git config --global user.name "GitHub Action"
+
+      - name: Add changes to Git
+        run: |
+          git add -A
+          ls -la
+
+      - name: Commit changes
+        run: |
+          git commit -m "Add HLS files"
+      
+      - name: Push changes
+        run: |
+          git push
