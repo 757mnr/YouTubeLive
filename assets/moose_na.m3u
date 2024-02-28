@@ -1,6 +1,4 @@
 #EXTM3U
-
-#EXTINF:-1 tvg-id="" tvg-logo="1234" group-title="Sports", Stream 1 
-https://live-par-2-abr.livepush.io/vod/bigbuckbunnyclip.mp4
-
-
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:BANDWIDTH=800000,RESOLUTION=640x360
+https://live-par-2-abr.livepush.io/vod/bigbuckbunnyclip.mp4/index.m3u8
