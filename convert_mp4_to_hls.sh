@@ -33,11 +33,9 @@ hls_time=10     # Set the duration of each segment (in seconds)
 
 # Convert MP4 to HLS
 ffmpeg -i "${input_file}" \
-       -vf "scale=1280:-2" \  # Optional: scale the video
-       -c:v libx264 \         # Video codec
-       -crf 21 \              # Video quality (lower CRF means better quality but larger file size)
-       -preset veryfast \     # Encoding speed (trade-off between speed and compression efficiency)
-       -c:a aac \             # Audio codec
+       -vf "scale=1280:-2" \
+       -c:v libx264 -crf 21 -preset veryfast \
+       -c:a aac \
        -hls_time "${hls_time}" \
        -hls_list_size "${hls_list_size}" \
        -hls_segment_filename "${hls_dir}/${output_base}_%03d.ts" \
