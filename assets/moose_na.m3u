@@ -1,4 +1,4 @@
 #EXTM3U
 #EXT-X-VERSION:3
-#EXT-X-STREAM-INF:BANDWIDTH=800000,RESOLUTION=640x360
+#EXT-X-STREAM-INF:BANDWIDTH=800000
 https://live-par-2-abr.livepush.io/vod/bigbuckbunnyclip.mp4/index.m3u8
