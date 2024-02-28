@@ -27,11 +27,11 @@ def transcode_video(input_file, output_dir, bitrates, resolutions, watermark_url
             "ffmpeg",
             "-i", video_path,
             "-i", watermark_path,  # Path to the downloaded watermark image
-            "-filter_complex", f"[0:v][1:v]overlay=10:10",  # Overlay watermark
+            "-filter_complex", f"[0:v]scale={resolution},setpts=PTS-STARTPTS[video];[1:v]scale=100:50[watermark];[video][watermark]overlay=10:10",  # Overlay watermark
+            "-map", "[video]",
             "-c:a", "copy",
             "-c:v", "libx264",
             "-b:v", f"{bitrate}k",
-            "-vf", f"scale={resolution}",
             "-hls_time", "6",
             "-hls_list_size", "0",
             f"{output_path}/output.m3u8"
