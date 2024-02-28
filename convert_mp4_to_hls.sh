@@ -2,7 +2,7 @@
 
 # Check if ffmpeg is installed
 if ! command -v ffmpeg &> /dev/null; then
-    echo "ffmpeg is not installed. Please install ffmpeg and try again."
+    echo "Error: ffmpeg is not installed. Please install ffmpeg and try again."
     exit 1
 fi
 
@@ -22,9 +22,9 @@ output_dir=$(dirname "${input_file}")
 output_base=$(basename "${input_file}" .mp4)
 
 # Output directory for HLS files
-hls_dir="${output_dir}/input_hls"
+hls_dir="${output_dir}/${output_base}_hls"
 
-# Create output directory for HLS files if it doesn't exist
+# Create output directory for HLS files
 mkdir -p "${hls_dir}"
 
 # Set HLS options
@@ -45,6 +45,8 @@ ffmpeg -i "${input_file}" \
 if [ $? -eq 0 ]; then
     echo "HLS conversion completed successfully."
     echo "HLS files are saved in: ${hls_dir}/"
+    echo "Contents of ${hls_dir}/:"
+    ls -l "${hls_dir}/"
 else
     echo "Error: HLS conversion failed."
 fi
