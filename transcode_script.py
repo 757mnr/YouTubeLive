@@ -20,7 +20,9 @@ def transcode_video(input_file, output_dir, bitrates, resolutions, watermark_url
     download_file(watermark_url, watermark_path)
 
     for bitrate, resolution in zip(bitrates, resolutions):
-        output_path = os.path.join(output_dir, f"{resolution}_{bitrate}.mp4")
+        output_path = os.path.join(output_dir, f"{resolution}_{bitrate}")
+        os.makedirs(output_path, exist_ok=True)
+
         cmd = [
             "ffmpeg",
             "-i", video_path,
@@ -30,7 +32,9 @@ def transcode_video(input_file, output_dir, bitrates, resolutions, watermark_url
             "-c:v", "libx264",
             "-b:v", f"{bitrate}k",
             "-vf", f"scale={resolution}",
-            output_path
+            "-hls_time", "6",
+            "-hls_list_size", "0",
+            f"{output_path}/output.m3u8"
         ]
         subprocess.run(cmd)
         print(f"Transcoded video saved at: {output_path}")
