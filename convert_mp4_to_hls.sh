@@ -22,9 +22,9 @@ output_dir=$(dirname "${input_file}")
 output_base=$(basename "${input_file}" .mp4)
 
 # Output directory for HLS files
-hls_dir="${output_dir}/${output_base}_hls"
+hls_dir="${output_dir}/input_hls"
 
-# Create output directory for HLS files
+# Create output directory for HLS files if it doesn't exist
 mkdir -p "${hls_dir}"
 
 # Set HLS options
