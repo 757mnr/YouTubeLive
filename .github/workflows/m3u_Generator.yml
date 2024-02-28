@@ -1,27 +1,24 @@
-name: Convert Video to HLS
+name: MP4 to HLS Conversion
 
 on:
   push:
     branches:
       - main
+  pull_request:
+    branches:
+      - main
 
 jobs:
-  convert:
+  convert_mp4_to_hls:
     runs-on: ubuntu-latest
-
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v2
+      - name: Checkout repository
+        uses: actions/checkout@v2
 
-    - name: Install FFmpeg
-      run: sudo apt-get install ffmpeg -y
+      - name: Install ffmpeg
+        run: sudo apt-get install ffmpeg -y
 
-    - name: Convert MP4 to HLS
-      run: |
-        ffmpeg -i input.mp4 -vf "scale=1280:-1" -c:v libx264 -crf 21 -preset veryfast -c:a aac -b:a 128k -hls_time 10 -hls_list_size 0 output.m3u8
-
-    - name: Upload HLS files
-      uses: actions/upload-artifact@v2
-      with:
-        name: hls-output
-        path: output.m3u8
+      - name: Run HLS conversion script
+        run: |
+          chmod +x convert_mp4_to_hls.sh
+          ./convert_mp4_to_hls.sh input.mp4
