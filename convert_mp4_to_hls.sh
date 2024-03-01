@@ -32,7 +32,7 @@ hls_list_size=0 # Set to 0 to keep all segments
 hls_time=10     # Set the duration of each segment (in seconds)
 
 # Text overlay message
-overlay_text="Stream is interrupted! We will Back SOON"
+overlay_text="Stream is interrupted !"
 
 # Convert MP4 to HLS with scrolling text overlay
 ffmpeg -i "${input_file}" \
