@@ -36,7 +36,7 @@ overlay_text="Stream is interrupted! We will Back SOON"
 
 # Convert MP4 to HLS with scrolling text overlay
 ffmpeg -i "${input_file}" \
-       -vf "scale=1280:-2,drawtext=text='${overlay_text}':fontsize=24:fontcolor=white:x=(w-text_w)/2:y=h-th-20*t" \
+       -vf "scale=1280:-2,drawtext=text='${overlay_text}':fontsize=24:fontcolor=white:x=(w-text_w)/2:y=h-th-20:enable='between(t,1,10)',scroll=right" \
        -c:v libx264 -crf 21 -preset veryfast \
        -c:a aac \
        -hls_time "${hls_time}" \
