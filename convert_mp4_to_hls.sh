@@ -32,11 +32,11 @@ hls_list_size=0 # Set to 0 to keep all segments
 hls_time=10     # Set the duration of each segment (in seconds)
 
 # Text overlay message
-overlay_text="Stream is interrupted! We will fix soon"
+overlay_text="Stream is interrupted! We will Back SOON"
 
-# Convert MP4 to HLS with text overlay
+# Convert MP4 to HLS with scrolling text overlay
 ffmpeg -i "${input_file}" \
-       -vf "scale=1280:-2,drawtext=text='Stream is interrupted ! We will Back SOON':fontsize=24:fontcolor=white:x=(w-text_w)/2:y=(h-text_h)/2" \
+       -vf "scale=1280:-2,drawtext=text='${overlay_text}':fontsize=24:fontcolor=white:x=(w-text_w)/2:y=h-th-20*t" \
        -c:v libx264 -crf 21 -preset veryfast \
        -c:a aac \
        -hls_time "${hls_time}" \
