@@ -36,7 +36,7 @@ overlay_text="Stream is interrupted! We will fix soon"
 
 # Convert MP4 to HLS with text overlay
 ffmpeg -i "${input_file}" \
-       -vf "scale=1280:-2,drawtext=text='Stream is interrupted ! We will fix SOON':fontsize=24:fontcolor=white:x=(w-text_w)/2:y=(h-text_h)/2" \
+       -vf "scale=1280:-2,drawtext=text='Stream is interrupted ! We will Back SOON':fontsize=24:fontcolor=white:x=(w-text_w)/2:y=(h-text_h)/2" \
        -c:v libx264 -crf 21 -preset veryfast \
        -c:a aac \
        -hls_time "${hls_time}" \
